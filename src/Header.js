@@ -4,10 +4,15 @@ import React from "react"
 //import logo from './logo.svg';
 import './App.css';
 
+const logoSize = {
+  width: '55px',
+  paddingTop: '30px',
+};
+
 function Header(){
 	return(
 		<div>
-            <p>menu is here</p>
+		    <img style={logoSize} src="https://chenganma.com/favicon.ico"></img>
         </div>
 	)
 }

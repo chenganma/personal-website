@@ -6,6 +6,11 @@ import Main from './Main';
 import Footer from './Footer';
 import resumeData from "./resumeData"
 
+const divStyle = {
+  width: '85%',
+  margin: '0 auto',
+};
+
 function App() {
 
 	//const resumeData = this.props.resumeData;
@@ -15,7 +20,7 @@ function App() {
   	
   	//console.log(resumeData.work[0].company)
     return (
-    	<div>
+    	<div style={divStyle}>
       	    <Header />
       		
       		<Main />

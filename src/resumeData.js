@@ -1,8 +1,9 @@
 const resumeData = {
     "name": "Cheng-An (James) MA",
     "role": "PHP/Web Developer",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
+    "linkedin":"https://www.linkedin.com/in/chenganma/",
+    "github": "https://github.com/chenganma",
+    "profolio": "https://chenganma.com",
     "roleDescription": "Looking for Web/PHP Developer role.",
     "work":[
      {
@@ -17,14 +18,14 @@ const resumeData = {
         title: "Online Content Manger",
         company: "Stoutonia",
         date: "09/05/2015-05/07/2016",
-        description: "Housing provided for out-of-state students or those who can't commute"
+        description: "Managing WorPress website and publish new articles."
      },
      {
         id: "3",
         title: "Web Developer",
         company: "IFO Corp",
         date: "09/17/2012-02/27/2013",
-        description: "Don't have a computer? No problem!"
+        description: "Building an e-commerce website for expanding online market."
      }
     ]
 }
