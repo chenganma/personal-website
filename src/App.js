@@ -14,11 +14,11 @@ const divStyle = {
 function App() {
     
     return (
-        <div>
+        <div style={divStyle}>
             <Header />
 
             <Main />
-            
+
             <Footer />
         </div>
     )

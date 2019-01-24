@@ -17,16 +17,18 @@ const titleColor = {
 
 function Main() {
 
-    const displayTurtles = resumeData.work.map((turtle, index) =>
-        <div key={turtle.title + index}>
-            <h1>{turtle.title} ({turtle.company})</h1>
-            <hr/>
+    const displayWork = resumeData.work.map((item, index) =>
+        <div key={item.title + index}>
+            <h3>{item.title}</h3>
+	            {item.company}<br />
+	            {item.date}<br />
+	            {item.description}<br />
         </div>
     )
 
     return (
         <div>
-            {displayTurtles}
+            {displayWork}
         </div>
     )
 
