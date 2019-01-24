@@ -1,10 +1,19 @@
 const resumeData = {
     "name": "Cheng-An (James) MA",
     "role": "PHP/Web Developer",
-    "linkedin":"https://www.linkedin.com/in/chenganma/",
-    "github": "https://github.com/chenganma",
-    "profolio": "https://chenganma.com",
-    "roleDescription": "Looking for Web/PHP Developer role.",
+    "roleDescription": "Looking for Web/PHP Developer role",
+    "linkedin":{
+        url: "https://www.linkedin.com/in/chenganma/",
+        imagePath: "#",
+    },
+    "github":{
+        url: "https://github.com/chenganma",
+        imagePath: "#",
+    },
+    "profolio":{
+        url: "https://chenganma.com",
+        imagePath: "#",
+    },
     "work":[
      {
         id: "1",

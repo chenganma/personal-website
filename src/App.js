@@ -12,23 +12,16 @@ const divStyle = {
 };
 
 function App() {
-
-	//const resumeData = this.props.resumeData;
-	//console.log(resumeData)
-	console.log(resumeData)
-  	//const mainComponents = resumeData.map(info => <Main name={this.name} role={this.role} />)
-  	
-  	//console.log(resumeData.work[0].company)
+    
     return (
-    	<div style={divStyle}>
-      	    <Header />
-      		
-      		<Main />
+        <div>
+            <Header />
 
-      		<Footer />
-       </div>
+            <Main />
+            
+            <Footer />
+        </div>
     )
-  
 }
 
 export default App;

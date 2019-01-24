@@ -17,41 +17,22 @@ const titleColor = {
 
 function Main() {
 
-
-	return (
-    <div>
-
-    <h2>Who am I</h2>
-      {resumeData.name}<br />
-      {resumeData.role}<br />
-      {resumeData.linkedin}<br />
-      {resumeData.github}<br />
-      {resumeData.roleDescription}<br />
-
-
-    <h2 className="titleColor">Work Experience</h2>
-	   <Grid container spacing={24}>
-	      <Grid item xs={6}>
-	        <h4>{resumeData.work[0].title}</h4>
-	        {resumeData.work[0].company}<br />
-	        {resumeData.work[0].date}<br />
-	        {resumeData.work[0].description}<br />
-	      </Grid>
-	      <Grid item xs={6}>
-	        <h4>{resumeData.work[1].title}</h4>
-	      	{resumeData.work[1].company}<br />
-	        {resumeData.work[1].date}<br />
-	        {resumeData.work[1].description}<br />
-	      </Grid>
-	      <Grid item xs={6}>
-	        <h4>{resumeData.work[2].title}</h4>
-	        {resumeData.work[2].company}<br />
-	        {resumeData.work[2].date}<br />
-	        {resumeData.work[2].description}<br />
-	      </Grid>
-	   </Grid>
-    </div>
+    const displayTurtles = resumeData.work.map((turtle, index) =>
+        <div key={turtle.title + index}>
+            <h1>{turtle.title} ({turtle.company})</h1>
+            <hr/>
+        </div>
     )
+
+    return (
+        <div>
+            {displayTurtles}
+        </div>
+    )
+
+
+
+
 }
 
 export default Main;
