@@ -19,13 +19,14 @@ const divStyle = {
 
 const backColor = {
   backgroundColor: "yellow",
+  paddingRight: "20px",
 };
 
 function Skills() {
 
     const displaySkills = resumeData.skills.map((item, index) =>
         
-            <span style={backColor}>{item}{'   '}</span>
+            <span style={backColor}>{item}</span>
 
     )
 
