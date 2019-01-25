@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import Main from './Main';
+import Skills from './Skills';
 import Footer from './Footer';
 import resumeData from "./resumeData"
 
@@ -18,6 +19,8 @@ function App() {
             <Header />
 
             <Main />
+
+            <Skills />
 
             <Footer />
         </div>

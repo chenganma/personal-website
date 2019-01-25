@@ -11,33 +11,30 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
-const titleColor = {
-  color: 'blue',
-};
 
 const divStyle = {
   width: '50%',
   margin: '0 auto',
 };
 
-function Main() {
+const backColor = {
+  backgroundColor: "yellow",
+};
 
-    const displayWork = resumeData.work.map((item, index) =>
-        <div key={item.title + index}>
-            <h3>{item.title}</h3>
-	            {item.company}<br />
-	            {item.date}<br />
-	            {item.description}<br /> <hr />
+function Skills() {
 
-        </div>
+    const displaySkills = resumeData.skills.map((item, index) =>
+        
+            <span style={backColor}>{item}{'   '}</span>
+
     )
 
     return (
         <div style={divStyle}>
-            {displayWork}
+            {displaySkills}
         </div>
     )
 
 }
 
-export default Main;
+export default Skills;
