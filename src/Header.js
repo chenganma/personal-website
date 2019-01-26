@@ -5,15 +5,12 @@ import React from "react"
 import logo from './assets/logo.jpg';
 import './App.css';
 
-const logoSize = {
-  width: '55px',
-  paddingTop: '22px',
-};
+
 
 function Header(){
 	return(
 		<div>
-		    <img style={logoSize} src={logo}></img>
+		    
         </div>
 	)
 }

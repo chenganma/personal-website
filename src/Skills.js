@@ -10,10 +10,9 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-
+import Button from '@material-ui/core/Button';
 
 const divStyle = {
-  width: '90%',
   margin: '0 auto',
 };
 
@@ -22,11 +21,17 @@ const backColor = {
   marginRight: "20px",
 };
 
+const spaceMar = {
+  marginRight: "10px",
+};
+
 function Skills() {
 
     const displaySkills = resumeData.skills.map((item, index) =>
         
-            <span style={backColor}>{item}</span>
+      <Button variant="contained" color="primary" style={spaceMar}>
+        {item}
+      </Button>
 
     )
 

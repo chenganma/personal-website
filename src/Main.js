@@ -21,7 +21,7 @@ function Main() {
 
     const displayWork = resumeData.work.map((item, index) =>
         <div key={item.title + index}>
-            <h3>{item.title}</h3>
+            <h4>{item.title}</h4>
 	            {item.company}<br />
 	            {item.date}<br />
 	            {item.description}<br /> <hr />
@@ -30,11 +30,8 @@ function Main() {
     )
 
     return (
-        <div>
-        
-         
+        <div>         
             {displayWork}
-
         </div>
     )
 

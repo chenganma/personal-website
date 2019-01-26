@@ -16,8 +16,6 @@ function Footer(){
 	return(
 		<div style={divStyle}>
             <p>2019 copyright Cheng-An Ma</p>
-            <a href={resumeData.linkedin.url}><img src={linkedin_logo}></img></a>
-            <a href={resumeData.github.url}><img src={github_logo}></img></a>
         </div>
 	)
 }

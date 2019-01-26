@@ -37,7 +37,7 @@ const resumeData = {
         description: "Building an e-commerce website for expanding online market and saving website development cost"
      }
     ],
-    "skills" :['PHP', 'MySQL', 'CSS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', '', 'Bootstrap', 'PhotoShop', 'Illustrate']
+    "skills" :['PHP', 'MySQL', 'CSS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', 'Bootstrap', 'PhotoShop', 'Illustrate']
 }
 
 
