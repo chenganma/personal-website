@@ -13,13 +13,13 @@ import Grid from '@material-ui/core/Grid';
 
 
 const divStyle = {
-  width: '50%',
+  width: '90%',
   margin: '0 auto',
 };
 
 const backColor = {
   backgroundColor: "yellow",
-  paddingRight: "20px",
+  marginRight: "20px",
 };
 
 function Skills() {

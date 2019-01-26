@@ -6,6 +6,7 @@ import Main from './Main';
 import Skills from './Skills';
 import Footer from './Footer';
 import resumeData from "./resumeData"
+import Grid from '@material-ui/core/Grid';
 
 const divStyle = {
   width: '85%',
@@ -18,7 +19,16 @@ function App() {
         <div style={divStyle}>
             <Header />
 
-            <Main />
+            
+
+            <Grid container spacing={24}>
+              <Grid item xs={6}>
+                <Main />
+              </Grid>
+              <Grid item xs={6}>
+                
+              </Grid>
+            </Grid>
 
             <Skills />
 

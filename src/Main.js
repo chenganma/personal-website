@@ -15,10 +15,7 @@ const titleColor = {
   color: 'blue',
 };
 
-const divStyle = {
-  width: '50%',
-  margin: '0 auto',
-};
+
 
 function Main() {
 
@@ -33,8 +30,11 @@ function Main() {
     )
 
     return (
-        <div style={divStyle}>
+        <div>
+        
+         
             {displayWork}
+
         </div>
     )
 
