@@ -34,7 +34,7 @@ function Profile() {
     return (
         <div>
         	<img style={logoSize} src={logo}></img>
-            <p>{resumeData.name}</p>
+            <h3>{resumeData.name}</h3>
             <p>{resumeData.role}</p>
             <p>{resumeData.roleDescription}</p>
             <p>{resumeData.profolio.url}</p>

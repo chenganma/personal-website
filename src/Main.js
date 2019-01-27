@@ -19,12 +19,16 @@ const datePosition = {
   float: 'right',
 };
 
+const titleRole = {
+  marginBottom: '8px',
+};
+
 function Main() {
 
     const displayWork = resumeData.work.map((item, index) =>
         <div key={item.title + index}>
-            <h4>{item.title}</h4>
-	          <span >{item.company}</span><span style={datePosition}>{item.date}</span><br />
+            <h4 style={titleRole}>{item.title}</h4>
+	           <span >{item.company}</span><span style={datePosition}>{item.date}</span><br />
 	          {item.description}<br /> <hr />
         </div>
     )
