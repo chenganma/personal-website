@@ -7,15 +7,18 @@ import github_logo from './assets/GitHub.png';
 import linkedin_logo from './assets/linkedin.png';
 import './App.css';
 
+const marStyle = {
+  float: 'right',
+};
+
 const divStyle = {
-  width: '50%',
-  margin: '0 auto',
+  marginTop: '15px',
 };
 
 function Footer(){
 	return(
 		<div style={divStyle}>
-            <p>2019 copyright Cheng-An Ma</p>
+            <span>2019 copyright Cheng-An Ma</span> <span style={marStyle}>Last Update : {resumeData.updateDate}</span>
         </div>
 	)
 }

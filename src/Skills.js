@@ -22,7 +22,7 @@ const backColor = {
 };
 
 const spaceMar = {
-  marginRight: "10px",
+  margin: "10px",
 };
 
 function Skills() {

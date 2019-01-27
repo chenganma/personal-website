@@ -15,17 +15,17 @@ const titleColor = {
   color: 'blue',
 };
 
-
+const datePosition = {
+  float: 'right',
+};
 
 function Main() {
 
     const displayWork = resumeData.work.map((item, index) =>
         <div key={item.title + index}>
             <h4>{item.title}</h4>
-	            {item.company}<br />
-	            {item.date}<br />
-	            {item.description}<br /> <hr />
-
+	          <span >{item.company}</span><span style={datePosition}>{item.date}</span><br />
+	          {item.description}<br /> <hr />
         </div>
     )
 

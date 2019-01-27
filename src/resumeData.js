@@ -2,6 +2,7 @@ const resumeData = {
     "name": "Cheng-An (James) MA",
     "role": "PHP/Web Developer",
     "roleDescription": "Looking for Web/PHP Developer role",
+    "updateDate": "01-28-2019",
     "linkedin":{
         url: "https://www.linkedin.com/in/chenganma/",
         imagePath: "#",
@@ -37,7 +38,7 @@ const resumeData = {
         description: "Building an e-commerce website for expanding online market and saving website development cost"
      }
     ],
-    "skills" :['PHP', 'MySQL', 'CSS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', 'Bootstrap', 'PhotoShop', 'Illustrate']
+    "skills" :['PHP', 'MySQL', 'HTML', 'CSS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', 'Bootstrap', 'PhotoShop', 'Illustrate']
 }
 
 

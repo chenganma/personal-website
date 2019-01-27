@@ -44,7 +44,7 @@ function App() {
 
 	            <Grid item xs={12} md={9}>
 	            
-	            <h2 style={h2Tag}><span style={spaceMar}><FontAwesomeIcon icon={faBriefcase} /></span>Work Experience</h2>
+	            <h2 style={h2Tag}><span style={spaceMar}><FontAwesomeIcon icon={faBriefcase} />Work Experience</span></h2>
 	                <Main />
 	            </Grid>
 	            <Hidden only={['xs', 'sm']}>
