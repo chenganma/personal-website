@@ -3,8 +3,6 @@ import React from "react"
 //import React, { Component } from 'react';
 //import logo from './logo.svg';
 import resumeData from "./resumeData"
-import github_logo from './assets/GitHub.png';
-import linkedin_logo from './assets/linkedin.png';
 import './App.css';
 
 const marStyle = {
@@ -12,12 +10,12 @@ const marStyle = {
 };
 
 const divStyle = {
-  marginTop: '15px',
+  margin: '0px 50px 10px 50px',
 };
 
 function Footer(){
 	return(
-		<div style={divStyle}>
+		<div>
             <span>2019 copyright Cheng-An Ma</span> <span style={marStyle}>Last Update : {resumeData.updateDate}</span>
         </div>
 	)

@@ -20,25 +20,44 @@ const resumeData = {
         id: "1",
         title: "PHP Programmer",
         company: "Lyman Companies",
-        date: "08/29/2016 - Present",
-        description: "Two years PHP and MySQL experience on building Web Application"
+        location: "Excelsior, MN",
+        date: "August 2016 - Present",
+        description: "Maintain web system with PHP and MySQL for data processing and HTML, CSS, and JavaScript for front-end layout and functions"
      },
      {
         id: "2",
         title: "Online Content Manger",
         company: "Stoutonia",
-        date: "09/05/2015 - 05/07/2016",
-        description: "Managing WorPress website and publishing new articles every two weeks"
+        location: "Menomonie, WI",
+        date: "Sep 2015 - May 2016",
+        description: "Managed a website’s content presentation, studied traffic and viewership patterns and corresponded with the chief editor; posted 24 new articles and images monthly during high engagement hours to boost readership"
      },
      {
         id: "3",
         title: "Web Developer",
         company: "IFO Corp",
-        date: "09/17/2012 - 02/27/2013",
-        description: "Building an e-commerce website for expanding online market and saving website development cost"
+        location: "Taipei, Taiwan",
+        date: "Sep 2012 - Feb 2013",
+        description: "Saved company $10K by building an e-commerce website from scratch using OpenCart to expand online marketing and reach more customers without hiring an outside web development company"
      }
     ],
-    "skills" :['PHP', 'MySQL', 'HTML', 'CSS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', 'Bootstrap', 'PhotoShop', 'Illustrate']
+    "projects":[
+     {
+        id: "1",
+        name: "Maxwell Construction",
+        location: "Chicago, Illinois ",
+        date: "July 2016 - August 2016",
+        description: "Generated new business by building a mobile/tablet website to advertise my clients’ expertise and work performance"
+     },
+     {
+        id: "2",
+        name: "Theos Medical System",
+        location: "Santa Clara, California",
+        date: "August 2016 - Sep 2015",
+        description: "Accelerated development processes to meet requirements (WordPress) within a month; tested payment processes, security status, and plugin functionality"
+     },
+    ],
+    "skills" :['PHP', 'MySQL', 'HTML', 'CSS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', 'Bootstrap', 'PhotoShop', 'Illustrate', 'GitHub', 'Mac OS', 'Windows']
 }
 
 

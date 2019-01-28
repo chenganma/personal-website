@@ -6,6 +6,7 @@ import Main from './Main';
 import Skills from './Skills';
 import Footer from './Footer';
 import Profile from './Profile';
+import Projects from './Projects';
 import resumeData from "./resumeData"
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
@@ -22,7 +23,7 @@ const divStyle = {
 };
 
 const h2Tag = {
-  color: '#0000A0',
+  color: '#004de6',
 };
 
 const spaceMar = {
@@ -30,8 +31,8 @@ const spaceMar = {
 };
 
 const allBorder = {
-  margin: '35px',
-  padding: '50px',
+  margin: '35px 35px 35px 35px',
+  padding: '25px 50px 25px 50px',
 };
 
 const spaceMain = {
@@ -66,6 +67,10 @@ function App() {
 	               <Profile / >
 	            </Grid>
 	            </Hidden>
+	            <Grid item xs={12} md={9}>
+	            <h2 style={h2Tag}><span style={spaceMar}><FontAwesomeIcon icon={faBriefcase} /></span>Projects</h2>
+	                <Projects />
+	            </Grid>
             </Grid>
 
             <Grid container spacing={16}>
@@ -74,9 +79,16 @@ function App() {
             <Skills />
             </Grid>
             </Grid>
-            </Paper>
 
+            <Grid container spacing={16}>
+            <Grid item xs={12} md={9}>
             <Footer />
+            </Grid>
+            </Grid>
+            
+
+            
+            </Paper>
         </div>
     )
 }

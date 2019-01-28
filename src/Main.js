@@ -17,18 +17,23 @@ const titleColor = {
 
 const datePosition = {
   float: 'right',
+  color: '#0033cc',
+  fontSize: '14px',
 };
 
 const titleRole = {
-  marginBottom: '8px',
+  //marginBottom: '8px',
+  fontSize: '18px',
+  fontWeight: 'bold',
 };
 
 function Main() {
 
     const displayWork = resumeData.work.map((item, index) =>
         <div key={item.title + index}>
-            <h4 style={titleRole}>{item.title}</h4>
-	           <span >{item.company}</span><span style={datePosition}>{item.date}</span><br />
+            <span style={titleRole}>{item.title}</span>
+	           <span style={datePosition}>{item.date}</span><br />
+             <div>{item.company}</div><br />
 	          {item.description}<br /> <hr />
         </div>
     )

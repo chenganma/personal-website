@@ -29,7 +29,7 @@ function Skills() {
 
     const displaySkills = resumeData.skills.map((item, index) =>
         
-      <Button variant="contained" color="primary" style={spaceMar}>
+      <Button variant="outlined" color="primary" style={spaceMar}>
         {item}
       </Button>
 
