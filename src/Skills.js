@@ -16,11 +16,6 @@ const divStyle = {
   margin: '0 auto',
 };
 
-const backColor = {
-  backgroundColor: "yellow",
-  marginRight: "20px",
-};
-
 const spaceMar = {
   margin: "10px",
 };

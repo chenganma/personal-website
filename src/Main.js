@@ -34,7 +34,7 @@ function Main() {
             <span style={titleRole}>{item.title}</span>
 	           <span style={datePosition}>{item.date}</span><br />
              <div>{item.company}</div><br />
-	          {item.description}<br /> <hr />
+	          <div>{item.description}</div><hr />
         </div>
     )
 
