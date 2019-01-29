@@ -9,10 +9,6 @@ const marStyle = {
   float: 'right',
 };
 
-const divStyle = {
-  margin: '0px 50px 10px 50px',
-};
-
 function Footer(){
 	return(
 		<div>

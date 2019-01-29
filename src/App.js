@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+//import React, { Component } from 'react';
+import React from "react"
 //import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
@@ -7,8 +8,8 @@ import Skills from './Skills';
 import Footer from './Footer';
 import Profile from './Profile';
 import Projects from './Projects';
-import resumeData from "./resumeData"
-import { withStyles } from '@material-ui/core/styles';
+//import resumeData from "./resumeData"
+//import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Paper from '@material-ui/core/Paper';
@@ -35,10 +36,6 @@ const allBorder = {
   padding: '25px 50px 25px 50px',
 };
 
-const spaceMain = {
-  margin: '20px',
-};
-
 function App() {
     
     return (
@@ -47,7 +44,7 @@ function App() {
             <Header />
 
             <Hidden only={['md', 'lg', 'xl']}>
-            <Paper style={divStyle, allBorder}>
+            <Paper style={{divStyle, allBorder}}>
             <Grid item xs={12}>
 	               <Profile / >
 	        </Grid>

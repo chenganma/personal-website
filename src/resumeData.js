@@ -22,7 +22,7 @@ const resumeData = {
         company: "Lyman Companies",
         location: "Excelsior, MN",
         date: "August 2016 - Present",
-        description: [
+        "description": [
         '• Research and analyze information and specifications for new features to streamline implementation of future software releases; consult with project managers and internal customers and effectively explain my findings',
         '• Decreasing spending by thousands of dollars a day by developing a web application for the credit return department that is accessed via tablet for streamlined data retrieval to eliminate paper usage and excess travelling of employees to locate records\r\n',
         '• Implementing photo-taking function into current web page to simplify the verification and documentation of product conditions',
@@ -38,7 +38,7 @@ const resumeData = {
         company: "Stoutonia",
         location: "Menomonie, WI",
         date: "Sep 2015 - May 2016",
-        description: [
+        "description": [
         '• Managed a website’s content presentation, studied traffic and viewership patterns and corresponded with the chief editor; posted 24 new articles and images monthly during high engagement hours to boost readership',
         '• Identified readers’ topical interests using the Google Analytic tool and tailored content to meet demand',
         '• Increased visitation rate of social media channels by identifying trends and partnering with a social media specialist'
@@ -50,7 +50,7 @@ const resumeData = {
         company: "IFO Corp",
         location: "Taipei, Taiwan",
         date: "Sep 2012 - Feb 2013",
-        description: [
+        "description": [
         '• Saved company $10K by building an e-commerce website from scratch using OpenCart to expand online marketing and reach more customers without hiring an outside web development company',
         '• Configured front-end (HTML, CSS) and back-end (MySQL) within two weeks; activated several payment options for customers',
         '• Managed the content, website layouts (HTML, CSS), and product advertisings of official website',

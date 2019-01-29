@@ -6,14 +6,10 @@ import resumeData from "./resumeData"
 //import App from "./App"
 import './App.css';
 
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-
-const titleColor = {
-  color: 'blue',
-};
+//import PropTypes from 'prop-types';
+//import { withStyles } from '@material-ui/core/styles';
+//import Paper from '@material-ui/core/Paper';
+//import Grid from '@material-ui/core/Grid';
 
 const datePosition = {
   float: 'right',
@@ -34,7 +30,14 @@ function Main() {
             <span style={titleRole}>{item.title}</span>
 	           <span style={datePosition}>{item.date}</span><br />
              <div>{item.company}</div><br />
-	          <div>{item.description}</div><hr />
+	          <div>{item.description[0]}</div>
+            <div>{item.description[1]}</div>
+            <div>{item.description[2]}</div>
+            <div>{item.description[3]}</div>
+            <div>{item.description[4]}</div>
+            <div>{item.description[5]}</div>
+            <div>{item.description[6]}</div>
+            <hr />
         </div>
     )
 
