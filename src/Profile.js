@@ -32,7 +32,7 @@ function Profile() {
             <h3>{resumeData.name}</h3>
             <p>{resumeData.role}</p>
             <p>{resumeData.roleDescription}</p>
-            <p>{resumeData.profolio.url}</p>
+            <a href={resumeData.profolio.url}>{resumeData.profolio.url}</a><br /><br />
             <a href={resumeData.linkedin.url} style={iconSize}><img src={linkedin_logo} alt="Linkedin Logo"></img></a>
             <a href={resumeData.github.url}><img src={github_logo} alt="GitHub Logo"></img></a>
         </div>
