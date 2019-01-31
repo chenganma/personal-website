@@ -4,7 +4,7 @@ import React from "react"
 //import logo from './logo.svg';
 import resumeData from "./resumeData"
 //import App from "./App"
-import './App.css';
+import './App.css'
 
 //import PropTypes from 'prop-types';
 //import { withStyles } from '@material-ui/core/styles';
@@ -23,23 +23,28 @@ const titleRole = {
   fontWeight: 'bold',
 };
 
+const lineSpace = {
+  paddingBottom: '15px',
+};
+
 function Main() {
 
-    const displayWork = resumeData.work.map((item, index) =>
-        <div key={item.title + index}>
+    const displayWork = resumeData.work.map((item, index) =>(
+        <div key={index}>
             <span style={titleRole}>{item.title}</span>
-	           <span style={datePosition}>{item.date}</span><br />
-             <div>{item.company}</div><br />
-	          <div>{item.description[0]}</div>
-            <div>{item.description[1]}</div>
-            <div>{item.description[2]}</div>
-            <div>{item.description[3]}</div>
-            <div>{item.description[4]}</div>
-            <div>{item.description[5]}</div>
-            <div>{item.description[6]}</div>
+	          <span style={datePosition}>{item.date}</span><br />
+            <div>{item.company}</div><br />
+	          <div style={lineSpace}>{item.description[0]}</div>
+            <div style={lineSpace}>{item.description[1]}</div>
+            <div style={lineSpace}>{item.description[2]}</div>
+            <div style={lineSpace}>{item.description[3]}</div>
+            <div style={lineSpace}>{item.description[4]}</div>
+            <div style={lineSpace}>{item.description[5]}</div>
+            <div style={lineSpace}>{item.description[6]}</div>
             <hr />
         </div>
-    )
+    ))
+    console.log(displayWork)
 
     return (
         <div>         

@@ -82,9 +82,6 @@ function App() {
             <Footer />
             </Grid>
             </Grid>
-            
-
-            
             </Paper>
         </div>
     )

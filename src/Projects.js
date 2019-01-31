@@ -18,14 +18,18 @@ const proName = {
   marginBottom: '8px',
 };
 
+const lineSpace = {
+  marginBottom: '10px',
+};
+
 function Projects() {
 
     const displayProjects = resumeData.projects.map((item, index) =>
         <div key={item.name + index}>
             <span style={proName}>{item.name}</span>
-	          <span style={datePosition}>{item.date}</span><br />
-            <div></div><br />
-	          {item.description}<br /><hr />
+	          <div style={datePosition}>{item.date}</div><br /><br />
+	          <div style={lineSpace}>{item.description[0]}</div>
+            <div style={lineSpace}>{item.description[1]}</div><br /><hr />
         </div>
     )
 

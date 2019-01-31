@@ -11,7 +11,7 @@ const marStyle = {
 
 function Footer(){
 	return(
-		<div>
+		<div><br />
             <span>2019 copyright Cheng-An Ma</span> <span style={marStyle}>Last Update : {resumeData.updateDate}</span>
         </div>
 	)
