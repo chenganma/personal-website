@@ -32,7 +32,7 @@ const spaceMar = {
 };
 
 const allBorder = {
-  margin: '10px 0px',
+  margin: '25px 0px',
   padding: '0px 25px',
 };
 
