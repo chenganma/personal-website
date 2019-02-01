@@ -32,8 +32,8 @@ const spaceMar = {
 };
 
 const allBorder = {
-  margin: '35px 0px',
-  padding: '0px 50px 0px 50px',
+  margin: '10px 0px',
+  padding: '0px 25px',
 };
 
 const contentCenter = {
