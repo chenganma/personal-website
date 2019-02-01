@@ -24,12 +24,17 @@ const iconSize = {
   marginRight: '12px',
 };
 
+const nameFormat = {
+  fontSize: '22px',
+  fontWeight: 'bold',
+}
+
 function Profile() {
 
     return (
         <div>
         	<img style={logoSize} src={logo} alt="Logo"></img>
-            <h3>{resumeData.name}</h3>
+            <div style={nameFormat}>{resumeData.name}</div>
             <p>{resumeData.role}</p>
             <p>{resumeData.roleDescription}</p>
             <a href={resumeData.profolio.url}>{resumeData.profolio.url}</a><br /><br />

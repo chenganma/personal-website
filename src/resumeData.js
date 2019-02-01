@@ -1,5 +1,5 @@
 const resumeData = {
-    "name": "Cheng-An (James) MA",
+    "name": "James Ma",
     "role": "PHP/Web Developer",
     "roleDescription": "Looking for Web/PHP Developer role",
     "updateDate": "01-31-2019",
