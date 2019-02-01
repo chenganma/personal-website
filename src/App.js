@@ -32,8 +32,14 @@ const spaceMar = {
 };
 
 const allBorder = {
-  margin: '35px 35px 35px 35px',
-  padding: '25px 50px 25px 50px',
+  margin: '35px 0px',
+  padding: '0px 50px 0px 50px',
+};
+
+const contentCenter = {
+  textAlign: 'center',
+  margin: '35px',
+  padding: '35px',
 };
 
 function App() {
@@ -45,7 +51,7 @@ function App() {
 
             <Hidden only={['md', 'lg', 'xl']}>
             <Paper style={{divStyle, allBorder}}>
-            <Grid item xs={12}>
+            <Grid item xs={12} style={contentCenter}>
 	               <Profile / >
 	        </Grid>
 	        </Paper>
