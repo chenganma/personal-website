@@ -20,20 +20,13 @@ const spaceMar = {
   margin: "10px",
 };
 
-function Skills() {
-
-    const displaySkills = resumeData.skills.map((item, index) =>
-      <Button key={item.toString()} variant="outlined" color="primary" style={spaceMar}>
-        {item}
-      </Button>
-    )
+function Skills(props) {
 
     return (
-        <div style={divStyle}>
-            {displaySkills}
-        </div>
+      <Button variant="outlined" color="primary" style={spaceMar}>
+          {props.skills}
+      </Button>
     )
-
 }
 
 export default Skills;

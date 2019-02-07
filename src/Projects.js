@@ -22,23 +22,15 @@ const lineSpace = {
   marginBottom: '10px',
 };
 
-function Projects() {
-
-    const displayProjects = resumeData.projects.map((item, index) =>
-        <div key={item.name + index}>
-            <span style={proName}>{item.name}</span>
-	          <div style={datePosition}>{item.date}</div><br /><br />
-	          <div style={lineSpace}>{item.description[0]}</div>
-            <div style={lineSpace}>{item.description[1]}</div><br /><hr />
-        </div>
-    )
-
+function Projects(props) {
     return (
-        <div>         
-            {displayProjects}
+        <div>
+            <span style={proName}>{props.projects.name}</span>
+            <div style={datePosition}>{props.projects.date}</div><br /><br />
+            <div style={lineSpace}>{props.projects.description[0]}</div>
+            <div style={lineSpace}>{props.projects.description[1]}</div><br />
         </div>
     )
-
 }
 
-export default Projects;
+export default Projects

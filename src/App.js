@@ -8,7 +8,7 @@ import Skills from './Skills';
 import Footer from './Footer';
 import Profile from './Profile';
 import Projects from './Projects';
-//import resumeData from "./resumeData"
+import resumeData from "./resumeData"
 //import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
@@ -43,6 +43,14 @@ const contentCenter = {
 };
 
 function App() {
+
+	const displayProjects = resumeData.projects.map(item01 =>
+        <Projects key={item01.toString()} projects={item01} />
+    )
+
+    const displaySkills = resumeData.skills.map(item02 =>
+      <Skills key={item02.toString()} skills={item02} variant="outlined" color="primary" style={spaceMar} />
+    )
     
     return (
         <div style={divStyle}>
@@ -72,14 +80,14 @@ function App() {
 	            </Hidden>
 	            <Grid item xs={12} md={9}>
 	            <h2 style={h2Tag}><span style={spaceMar}><FontAwesomeIcon icon={faBriefcase} /></span>Projects</h2>
-	                <Projects />
+	                {displayProjects}
 	            </Grid>
             </Grid>
 
             <Grid container spacing={16}>
             <Grid item xs={12} md={9}>
             <h2 style={h2Tag}><span style={spaceMar}><FontAwesomeIcon icon={faRocket} /></span>Skills</h2>
-            <Skills />
+            {displaySkills}
             </Grid>
             </Grid>
 
