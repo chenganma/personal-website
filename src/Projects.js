@@ -2,7 +2,7 @@ import React from "react"
 //import ReactDOM from "react-dom"
 //import React, { Component } from 'react';
 //import logo from './logo.svg';
-import resumeData from "./resumeData"
+//import resumeData from "./resumeData"
 //import App from "./App"
 import './App.css';
 

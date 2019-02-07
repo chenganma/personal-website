@@ -45,11 +45,11 @@ const contentCenter = {
 function App() {
 
 	const displayProjects = resumeData.projects.map(item01 =>
-        <Projects key={item01.toString()} projects={item01} />
+        <Projects key={item01.name} projects={item01} />
     )
 
     const displaySkills = resumeData.skills.map(item02 =>
-      <Skills key={item02.toString()} skills={item02} variant="outlined" color="primary" style={spaceMar} />
+       <Skills key={item02.toString()} skills={item02} />
     )
     
     return (
