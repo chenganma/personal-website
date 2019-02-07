@@ -44,7 +44,6 @@ function Main() {
             <hr />
         </div>
     ))
-    console.log(displayWork)
 
     return (
         <div>         
