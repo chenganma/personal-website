@@ -35,14 +35,7 @@ function Projects() {
     ))
     return (
         <div>
-<<<<<<< HEAD
             {displayProjects}
-=======
-            <span style={proName}>{props.projects.name}</span>
-            <div style={datePosition}>{props.projects.date}</div><br /><br />
-            <div style={lineSpace}>{props.projects.description.join('\n\n')}</div>
-            <hr />
->>>>>>> 9d1f0d86665a5a3c2748250cba16950b70507789
         </div>
     )
 }
