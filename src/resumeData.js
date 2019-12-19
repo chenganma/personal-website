@@ -2,7 +2,11 @@ const resumeData = {
     "name": "James Ma",
     "role": "PHP/Web Developer",
     "roleDescription": "Looking for Web/PHP Developer role",
+<<<<<<< HEAD
+    "updateDate": "12-01-2019",
+=======
     "updateDate": "03-18-2019",
+>>>>>>> 9d1f0d86665a5a3c2748250cba16950b70507789
     "linkedin":{
         url: "https://www.linkedin.com/in/chenganma/",
         imagePath: "#",
@@ -67,7 +71,7 @@ const resumeData = {
         date: "July 2016 - August 2016",
         "description": [
         '• Generated new business by building a mobile/tablet website to advertise my clients’ expertise and work performance',
-        '• Configured front-end with HTML and CSS and implemented Bootstrap to layout the landing page; optimized SEO using metatag descriptions and alt name tags for images',
+        '• Configured front-end with HTML and CSS and implemented Bootstrap to layout the landing page; optimized SEO using metatag descriptions and alt name tags for images'
         ]
      },
      {
@@ -77,7 +81,7 @@ const resumeData = {
         date: "August 2016 - Sep 2015",
         "description": [
         '• Arranged page layouts and maintained several product specifications for e-Commerce site and blogs',
-        '• Accelerated development processes to meet requirements (WordPress) within a month; tested payment processes, security status, and plugin functionality',
+        '• Accelerated development processes to meet requirements (WordPress) within a month; tested payment processes, security status, and plugin functionality'
         ]
      },
     ],
