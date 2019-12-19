@@ -2,11 +2,7 @@ const resumeData = {
     "name": "James Ma",
     "role": "PHP/Web Developer",
     "roleDescription": "Looking for Web/PHP Developer role",
-<<<<<<< HEAD
     "updateDate": "12-01-2019",
-=======
-    "updateDate": "03-18-2019",
->>>>>>> 9d1f0d86665a5a3c2748250cba16950b70507789
     "linkedin":{
         url: "https://www.linkedin.com/in/chenganma/",
         imagePath: "#",
