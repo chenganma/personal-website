@@ -10,7 +10,7 @@ function Footer(){
 	return(
 		<div><br />
 		 <Grid item xs={12} md={6}>
-            <span>2019 copyright Cheng-An Ma</span>
+            <span>2019 - 2026 copyright Cheng-An Ma</span>
          </Grid>
          <Grid item xs={12} md={6}>
             <span >Last Update : {resumeData.updateDate}</span>

@@ -19,7 +19,8 @@ const proName = {
 };
 
 const lineSpace = {
-  marginBottom: '10px',
+  marginBottom: '15px',
+  whiteSpace: 'pre-line',
 };
 
 function Projects(props) {
@@ -27,8 +28,8 @@ function Projects(props) {
         <div>
             <span style={proName}>{props.projects.name}</span>
             <div style={datePosition}>{props.projects.date}</div><br /><br />
-            <div style={lineSpace}>{props.projects.description[0]}</div>
-            <div style={lineSpace}>{props.projects.description[1]}</div><br />
+            <div style={lineSpace}>{props.projects.description.join('\n\n')}</div>
+            <hr />
         </div>
     )
 }

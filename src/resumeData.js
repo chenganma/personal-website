@@ -2,7 +2,7 @@ const resumeData = {
     "name": "James Ma",
     "role": "PHP/Web Developer",
     "roleDescription": "Looking for Web/PHP Developer role",
-    "updateDate": "01-31-2019",
+    "updateDate": "02-03-2026",
     "linkedin":{
         url: "https://www.linkedin.com/in/chenganma/",
         imagePath: "#",
@@ -21,7 +21,7 @@ const resumeData = {
         title: "PHP Programmer",
         company: "Lyman Companies",
         location: "Excelsior, MN",
-        date: "August 2016 - Present",
+        date: "August 2016 - June 2019",
         "description": [
         '• Research and analyze information and specifications for new features to streamline implementation of future software releases; consult with project managers and internal customers and effectively explain my findings',
         '• Decreasing spending by thousands of dollars a day by developing a web application for the credit return department that is accessed via tablet for streamlined data retrieval to eliminate paper usage and excess travelling of employees to locate records',
@@ -81,7 +81,7 @@ const resumeData = {
         ]
      },
     ],
-    "skills" :['PHP', 'MySQL', 'HTML', 'CSS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', 'Bootstrap', 'PhotoShop', 'Illustrate', 'GitHub', 'Mac OS', 'Windows']
+    "skills" :['PHP', 'MySQL', 'HTML', 'CSS', 'AWS', 'Vue.js', 'React.js', 'OpenCart', 'WordPress', 'Bootstrap', 'PhotoShop', 'Illustrate', 'GitHub', 'Mac OS', 'Windows']
 }
 
 
